@@ -12,9 +12,26 @@ a {
 }
 .footer {
     background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
 }
 button:hover {
     background-color: #2196F3;
+     cursor: pointer;
+     color: white;
 }
-
-
+.hero {
+    width: 1600px;
+    height: 600px;
+    background: #2F303A;
+    color: white; 
+}
+.link {
+    color: white;
+}
+.logo {
+    color: white;
+}
+.logo-heder {
+    color: #212121;
+}
