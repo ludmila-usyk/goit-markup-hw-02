@@ -35,3 +35,7 @@ button:hover {
 .logo-heder {
     color: #212121;
 }
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
