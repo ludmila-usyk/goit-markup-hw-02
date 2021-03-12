@@ -50,51 +50,57 @@
         url('../fonts/roboto-v20-latin_cyrillic-900.svg#Roboto') format('svg');
 }
 
-:root
+:root {
+    --white-color: white;
+    --accent-color: #2196F3;
+    --grey-light-color: #757575;
+    --bg-color: #2F303A;
+    --black-color: #212121;
+    --button-color: #F5F4FA;
+}
 
 body {
-    background-color: white;
+    background-color: var(--white-color);
+    font-family: 'Roboto';
+    
 }
 a {
     text-decoration: none;
 }
 .logo-page {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .hidden {
     display: none;
 }
 .footer {
-    background-color: #2F303A;
+    background-color: var(--bg-color);
     font-style: normal;
 }
 button:hover {
-    background-color: #2196F3;
+    background-color: var(--accent-color);
      cursor: pointer;
-     color: white;
+     color: var(--button-color);
 }
 .hero {
-    background: #2F303A;
-    color: white; 
+    background: var(--bg-color);
+     color: var(--white-color);
 }
 .link {
-    color: white;
+     color: var(--white-color);
     font-style: normal;
 }
 .logo {
-    color: white;
+     color: var(--white-color);
 }
 .logo-heder {
-    color: #212121;
+    color: var(--black-color);
 }
 li {
     list-style-type: none;
     /* Убираем маркеры */
 }
 p {
-    color: #757575;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    color: var(--grey-light-color);
     letter-spacing: 0.03em;
 }
