@@ -198,6 +198,7 @@ li {
     letter-spacing: 0.02em;
     color: var(--black-color);
     font-family: Roboto;
+    hover: var(--accent-color);
 }
 .main-button {
     font-family: Roboto;
@@ -210,11 +211,11 @@ li {
     background: var(--accent-color);
 }
 .button-gallery {
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-letter-spacing: 0.03em;
-color: var(--black-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+    font-family: Roboto;
 }
