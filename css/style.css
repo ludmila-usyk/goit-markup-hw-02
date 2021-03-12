@@ -190,6 +190,10 @@ li {
     letter-spacing: 0.03em;
     color: var(--grey-light-color);
 }
+.mail-tell:hover,
+.mail-tell:focus {
+    color: var(--accent-color);
+}
 .header-nav {
     font-style: normal;
     font-weight: 500;
@@ -198,7 +202,10 @@ li {
     letter-spacing: 0.02em;
     color: var(--black-color);
     font-family: Roboto;
-    hover: var(--accent-color);
+}
+.header-nav:hover,
+.header-nav:focus {
+    color: var(--accent-color);
 }
 .main-button {
     font-family: Roboto;
