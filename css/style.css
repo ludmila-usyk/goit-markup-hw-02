@@ -50,6 +50,7 @@
         url('../fonts/roboto-v20-latin_cyrillic-900.svg#Roboto') format('svg');
 }
 
+:root
 
 body {
     background-color: white;
@@ -65,8 +66,7 @@ a {
 }
 .footer {
     background-color: #2F303A;
-    width: 1600px;
-    height: 252px;
+    font-style: normal;
 }
 button:hover {
     background-color: #2196F3;
@@ -74,13 +74,12 @@ button:hover {
      color: white;
 }
 .hero {
-    width: 1600px;
-    height: 600px;
     background: #2F303A;
     color: white; 
 }
 .link {
     color: white;
+    font-style: normal;
 }
 .logo {
     color: white;
@@ -93,7 +92,7 @@ li {
     /* Убираем маркеры */
 }
 p {
-    color: 757575;
+    color: #757575;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
