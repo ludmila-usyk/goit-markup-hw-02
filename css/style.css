@@ -57,7 +57,7 @@
     --bg-color: #2F303A;
     --black-color: #212121;
     --button-color: #F5F4FA;
-}
+ }
 
 body {
     background-color: var(--white-color);
@@ -225,4 +225,7 @@ li {
     letter-spacing: 0.03em;
     color: var(--black-color);
     font-family: Roboto;
+}
+.occupation-part {
+    background-color: var(--button-color);
 }
